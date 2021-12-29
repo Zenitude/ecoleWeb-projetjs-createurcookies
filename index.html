@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/createurCookies.css">
+    <title>JS N° 4 : Créateur de cookies</title>
+</head>
+<body>
+
+    <h1>🍪 Le créateur de Cookie 🍪</h1>
+
+    <form>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+
+        <label for="valeur">Valeur</label>
+        <input type="text" id="valeur" name="valeur" placeholder="Valeur" required>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <button class="btn-creer" data-cookie="creer">Créer</button>
+        <button class="btn-afficher" data-cookie="afficher">Afficher</button>
+    </form>
+
+    <div class="container">
+        <p class="infos"></p>
+        <ul class="liste"></ul>
+    </div>
+        
+
+
+
+
+
+    <script src="scripts/createurCookies.js"></script>
+</body>
+</html>
